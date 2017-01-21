@@ -1,0 +1,32 @@
+{
+  "name": "claudia-api-builder-example",
+  "version": "1.0.0",
+  "description": "An example project for claudia-api-builder article",
+  "main": "index.js",
+  "scripts": {
+    "start": "claudia create --name claudia-api-builder-example --region us-east-1 --api-module index",
+    "deploy": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanJov/claudia-api-builder-example.git"
+  },
+  "author": "Ivan Jovanovic <ivanjov96@gmail.com> (http://github.com/ivanjov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanJov/claudia-api-builder-example/issues"
+  },
+  "homepage": "https://github.com/IvanJov/claudia-api-builder-example#readme",
+  "private": true,
+  "files": [
+    "*.js"
+  ],
+  "devDependencies": {
+    "claudia": "^2.0.0"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^2.0.0",
+    "denodeify": "^1.2.1",
+    "superb": "^1.2.0"
+  }
+}
