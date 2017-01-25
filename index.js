@@ -3,7 +3,7 @@ var ApiBuilder = require('claudia-api-builder'),
 
 module.exports = api;
 
-api.get('/hello', function () {
+api.get('/', function () {
   'use strict';
   return 'Hello World';
 });
