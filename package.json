@@ -25,7 +25,6 @@
     "claudia": "^2.0.0"
   },
   "dependencies": {
-    "claudia-api-builder": "^2.0.0",
-    "superb": "^1.2.0"
+    "claudia-api-builder": "^2.0.0"
   }
 }

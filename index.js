@@ -1,7 +1,6 @@
 /*global require, module*/
 var ApiBuilder = require('claudia-api-builder'),
-  api = new ApiBuilder(),
-  superb = require('superb');
+  api = new ApiBuilder();
 
 module.exports = api;
 
@@ -17,7 +16,7 @@ api.get('/echo', function (request) {
 
 api.get('/greet', function (request) {
   'use strict';
-  return request.queryString.name + ' is ' + superb();
+  return 'My name is ' + request.queryString.name;
 });
 
 api.get('/people/{name}', function (request) {
