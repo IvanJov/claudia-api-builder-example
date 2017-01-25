@@ -13,14 +13,9 @@ api.get('/echo', function (request) {
   return request;
 });
 
-api.get('/name', function (request) {
-  'use strict';
-  return 'My name is ' + request.queryString.name;
-});
-
 api.get('/people/{name}', function (request) {
   'use strict';
-  return request.pathParams.name + ' is ' + superb();
+  return request.pathParams.name + ' is cool!';
 });
 
 api.get('/json', function (request) {
