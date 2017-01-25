@@ -5,7 +5,7 @@ module.exports = api;
 
 api.get('/hello', function () {
   'use strict';
-  return 'hello world';
+  return 'Hello World';
 });
 
 api.get('/echo', function (request) {
