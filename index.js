@@ -13,7 +13,7 @@ api.get('/echo', function (request) {
   return request;
 });
 
-api.get('/greet', function (request) {
+api.get('/name', function (request) {
   'use strict';
   return 'My name is ' + request.queryString.name;
 });
